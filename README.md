@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Multithreading
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Multithreading is a powerful technique that allows programs to run 
+multiple threads simultaneously, improving their performance and 
+efficiency. It's similar to event-driven and asynchronous programming,
+which aim to use all CPU threads of the computer. In this project, 
+we explore the benefits of multithreading by starting with event-driven
+and asynchronous programming before moving on to multithreading.
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+The project is divided into two parts:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: This part of the project implements a 3D game.
+- Vanilla: This part of the project implements a 2D game.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup
 
-### `npm test`
+To get started with this project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/Camilo-Camargo/multithreading
+```
 
-### `npm run build`
+### Getting Started with React
+2. Navigate to the `react` directory:
+```bash
+cd multithreading/react
+``` 
+3. Install the project dependencies:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Run the development server:
+```bash
+npm run dev
+``` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Getting Started with Vanilla
+2. Navigate to the `vanilla` directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd multithreading/vanilla
+```
+3. Open the `index.html` file in your browser to start the game.
+That's it! Now you can explore the benefits of multithreading by experimenting with the code and observing the performance improvements in the game.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
